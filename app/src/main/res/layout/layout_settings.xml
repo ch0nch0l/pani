@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7">
+
+    <!--<TextView-->
+        <!--android:id="@+id/settings_tv_nfc"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@drawable/bg_round_rect"-->
+        <!--android:clickable="true"-->
+        <!--android:gravity="center"-->
+        <!--android:text="NFC"-->
+        <!--android:textColor="#cbc8d2"-->
+        <!--android:textSize="16sp" />-->
+
+    <TextView
+        android:id="@+id/settings_tv_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_round_rect"
+        android:gravity="center"
+        android:text="ওজন সেটিং"
+        android:textColor="#cbc8d2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/settings_tv_goal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_round_rect"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="টার্গেট সেটিং"
+        android:textColor="#cbc8d2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/settings_tv_mycup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_round_rect"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="কাপের ক্যাপাসিটি সেটিং"
+        android:textColor="#cbc8d2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/settings_tv_setlocation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_round_rect"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="লোকেশন সেটিং"
+        android:textColor="#cbc8d2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/settings_tv_setColor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_round_rect"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="ড্রপ কালার সেটিং"
+        android:textColor="#cbc8d2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/settings_tv_setting"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_round_rect"
+        android:gravity="center"
+        android:text="অন্যান্য প্রেফারেন্স"
+        android:textColor="#cbc8d2"
+        android:textSize="18sp" />
+
+</LinearLayout>

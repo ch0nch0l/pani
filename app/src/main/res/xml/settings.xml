@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="maker"
+        android:title="প্রেফারেন্স" />
+
+    <PreferenceCategory
+        android:key="pushsetting"
+        android:title="পুশ নোটিফিকেশন">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Setting_AutoGoal"
+            android:summaryOff="ডিফল্ট টার্গেট সেট অফ করা আছে"
+            android:summaryOn="প্রতিদিন সকালে আদ্রতার উপর টার্গেট সেট হবে"
+            android:switchTextOff="OFF"
+            android:switchTextOn="ON"
+            android:title="ডিফল্ট টার্গেট" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="Setting_AutoGoal"
+            android:key="Setting_AutoGoalPush"
+            android:summaryOff="প্রস্তাবিত লক্ষ্য বৈশিষ্ট্যযুক্ত অ্যালার্ম পাবেন না"
+            android:summaryOn="দৈনিক সকাল ৭ টায় বৈশিষ্ট্যযুক্ত অ্যালার্ম পান"
+            android:title="বৈশিষ্ট্যযুক্ত অ্যালার্ম" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pushsetting"
+        android:title="ওয়ার্নিং">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Setting_AlarmActivity"
+            android:summaryOff="অ্যালার্ম স্ক্রিন প্রদর্শন করা হবে না কিন্তু শুধুমাত্র ওয়ার্নিং অন"
+            android:summaryOn="অ্যালার্ম স্ক্রিন প্রদর্শন করা হবে"
+            android:title="অ্যালার্ম স্ক্রিন সেটিং" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Setting_Vibrate"
+            android:summaryOff="ভাইব্রেট অ্যালার্ম অফ আছে"
+            android:summaryOn="ভাইব্রেট অ্যালার্ম অন আছে"
+            android:title="ভাইব্রেট" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Setting_Sound"
+            android:summaryOff="অ্যালার্ম সাউন্ড অফ আছে"
+            android:summaryOn="অ্যালার্ম সাউন্ড অন আছে"
+            android:title="সাউন্ড" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

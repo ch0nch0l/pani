@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">পানি</string>
+    <string name="start">আরম্ভ</string>
+    <string name="title_alert">নোটিশ</string>
+    <string name="title_add_capacity">সর্বচ্চ পানির পরিমান(ml)</string>
+    <string name="title_edit_capacity">পরিমান পরিবর্তন(ml)</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <string name="msg_alarm">পান করার সময় হয়েছে!</string>
+    <string name="msg_require_nfc">এনএফসি অ্যান্ড্রয়েড বিম চালু করুন</string>
+    <string name="msg_require_capacity">বাটন ব্যাবহার করে পানির পরিমান যোগ করুন</string>
+    <string name="msg_ask_remove_capacity">আপনি কি নিশ্চিত পরিমান মুছে ফেলতে চান?</string>
+    <string name="msg_delete_capacity">পরিমান মুছে ফেলা হয়েছে.</string>
+    <string name="msg_invalid_input">দয়া করে সঠিক মান লিখুন.</string>
+    <string name="msg_press_long">পরিমান শুন্য করতে ২ সেকেন্ড চেপে ধরে রাখুন.</string>
+    <string name="msg_edited_capacity">পরিমান সংশোধন হয়ে গেছে.</string>
+</resources>
